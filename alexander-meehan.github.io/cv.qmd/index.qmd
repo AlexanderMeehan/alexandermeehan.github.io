@@ -1,0 +1,6 @@
+---
+title: CV
+---
+
+{{< lipsum 1 >}}
+{{< placeholder 400 400 >}}
