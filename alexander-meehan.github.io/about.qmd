@@ -1,5 +1,13 @@
 ---
-title: "About"
+---
+image: C:\Users\alexa\OneDrive\Pictures\eportfolio landing page.png
+about:
+  template: jolla
+  links: # create buttons
+    - icon: linkedin 
+      text: LinkedIn
+      href: www.linkedin.com/in/alex-meehan-267875208
+---
 ---
 
 About this site
