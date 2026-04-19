@@ -19,10 +19,4 @@ website:
 
 format:
   html:
-    theme:
-      light:
-        - flatly
-        - styles.scss
-      dark:
-        - darkly
-        - styles.scss
+    theme: [default, styles.scss]

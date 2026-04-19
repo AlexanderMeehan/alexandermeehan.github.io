@@ -15,7 +15,7 @@
         "analysing monthly revenue, costs and profit across a full calendar year. Built using\n",
         "Python and Matplotlib."
       ],
-      "id": "465310ff"
+      "id": "03c730c6"
     },
     {
       "cell_type": "code",
@@ -77,7 +77,7 @@
         "\n",
         "fig.show()"
       ],
-      "id": "463bda99",
+      "id": "59f07ce4",
       "execution_count": null,
       "outputs": []
     },
@@ -91,7 +91,7 @@
         "- **Costs** remained controlled, never exceeding 50% of revenue\n",
         "- **Profit** was positive every month, reaching **€60k** in December"
       ],
-      "id": "c8b552cd"
+      "id": "36d0a769"
     }
   ],
   "metadata": {
