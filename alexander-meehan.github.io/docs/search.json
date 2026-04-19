@@ -14,13 +14,6 @@
     "text": "Hi, I’m Alexander — an MSc Business Analytics candidate at Dublin City University with a background in Economics and Politics from University College Dublin.\nI’m passionate about bridging the gap between complex data and real-world business strategy. My academic journey has equipped me with hands-on experience in Python, SQL, and machine learning, which I’ve applied to projects like predicting demand and streamlining supply chain operations for SMEs through interactive dashboards and data-driven insights.\nDuring my master’s dissertation, I served as project lead on an applied consultancy project — coordinating a team, delivering analytical recommendations, and building tools that translated messy datasets into clear, actionable decisions for stakeholders.\nBeyond the numbers, I’ve built a solid foundation in customer-facing and leadership roles — from managing sales and client relationships at Geoghegan’s Menswear to running the social media presence of UCD’s Politics & International Relations Society.\nOutside of work and study, you’ll find me on the rugby pitch with Navan RFC or representing Bhulf Tón CLG.\nI’m available for opportunities from May 2026 — feel free to connect with me on LinkedIn.\nYou might like to look at my projects projects"
   },
   {
-    "objectID": "projects.qmd/index.html",
-    "href": "projects.qmd/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Dublin City University | 2025–2026\n\n\nLed an end-to-end data analytics consultancy engagement for an SME, focused on optimising product buying and inventory management through machine learning and data visualisation.\n\n\n\nServed as project lead and primary point of contact, coordinating team collaboration and managing client communication throughout the project lifecycle.\n\n\n\n\nDemand forecasting models — Implemented machine learning models to predict product demand and streamline supply chain operations\nInteractive dashboards — Developed visualisations to translate complex datasets into clear, actionable insights for non-technical stakeholders\n\n\n\n\nPython Machine Learning Data Visualisation SQL Stakeholder Communication"
-  },
-  {
     "objectID": "cv.qmd/index.html",
     "href": "cv.qmd/index.html",
     "title": "CV",
@@ -68,54 +61,5 @@
     "title": "CV",
     "section": "Interests",
     "text": "Interests\nActive member of Navan RFC and Bhulf Tón CLG."
-  },
-  {
-    "objectID": "projects.qmd/index.html#applied-consultancy-project-msc-dissertation",
-    "href": "projects.qmd/index.html#applied-consultancy-project-msc-dissertation",
-    "title": "Projects",
-    "section": "",
-    "text": "Dublin City University | 2025–2026\n\n\nLed an end-to-end data analytics consultancy engagement for an SME, focused on optimising product buying and inventory management through machine learning and data visualisation.\n\n\n\nServed as project lead and primary point of contact, coordinating team collaboration and managing client communication throughout the project lifecycle.\n\n\n\n\nDemand forecasting models — Implemented machine learning models to predict product demand and streamline supply chain operations\nInteractive dashboards — Developed visualisations to translate complex datasets into clear, actionable insights for non-technical stakeholders\n\n\n\n\nPython Machine Learning Data Visualisation SQL Stakeholder Communication"
-  },
-  {
-    "objectID": "projects.qmd/index.html#more-projects-coming-soon",
-    "href": "projects.qmd/index.html#more-projects-coming-soon",
-    "title": "Projects",
-    "section": "More Projects Coming Soon",
-    "text": "More Projects Coming Soon\nCurrently completing my MSc — additional projects will be added here upon graduation in September 2026."
-  },
-  {
-    "objectID": "projects.qmd/index.html#more-projects",
-    "href": "projects.qmd/index.html#more-projects",
-    "title": "Projects",
-    "section": "More Projects",
-    "text": "More Projects\nA research proposal - the causal effect that physical activity can have on improved mental health as part of prescribed treatment."
-  },
-  {
-    "objectID": "projects.qmd/sales_dashboard.html",
-    "href": "projects.qmd/sales_dashboard.html",
-    "title": "SME Financial Dashboard",
-    "section": "",
-    "text": "This dashboard visualises the monthly financial performance of an SME, tracking revenue, costs and profit across the year using Python and Plotly."
-  },
-  {
-    "objectID": "projects.qmd/sales_dashboard.html#overview",
-    "href": "projects.qmd/sales_dashboard.html#overview",
-    "title": "SME Financial Dashboard",
-    "section": "",
-    "text": "This dashboard visualises the monthly financial performance of an SME, tracking revenue, costs and profit across the year using Python and Plotly."
-  },
-  {
-    "objectID": "projects.qmd/sales_dashboard.html#revenue-vs-costs",
-    "href": "projects.qmd/sales_dashboard.html#revenue-vs-costs",
-    "title": "SME Financial Dashboard",
-    "section": "Revenue vs Costs",
-    "text": "Revenue vs Costs\n\n\nCode\nfig1 = go.Figure()\nfig1.add_trace(go.Scatter(x=months, y=revenue, mode=\"lines+markers\",\n    name=\"Revenue\", line=dict(color=\"#1B2A4A\", width=3)))\nfig1.add_trace(go.Scatter(x=months, y=costs, mode=\"lines+markers\",\n    name=\"Costs\", line=dict(color=\"#C9A84C\", width=3)))\nfig1.update_layout(\n    plot_bgcolor=\"#F4F6FA\", paper_bgcolor=\"#F4F6FA\",\n    yaxis_title=\"€ (thousands)\", legend=dict(orientation=\"h\"))\nfig1.show()\n\n\n                            \n                                            \nMonthly revenue and costs (€k)"
-  },
-  {
-    "objectID": "projects.qmd/sales_dashboard.html#monthly-profit",
-    "href": "projects.qmd/sales_dashboard.html#monthly-profit",
-    "title": "SME Financial Dashboard",
-    "section": "Monthly Profit",
-    "text": "Monthly Profit\n\n\nCode\nbar_colors = [\"#1B2A4A\" if p &gt;= 0 else \"#cc3333\" for p in profit]\nfig2 = go.Figure(go.Bar(x=months, y=profit, marker_color=bar_colors))\nfig2.add_hline(y=0, line_dash=\"dash\", line_color=\"#C9A84C\")\nfig2.update_layout(\n    plot_bgcolor=\"#F4F6FA\", paper_bgcolor=\"#F4F6FA\",\n    yaxis_title=\"€ (thousands)\")\nfig2.show()\n\n\n                            \n                                            \nMonthly profit (€k) — negative months shown in red"
   }
 ]
